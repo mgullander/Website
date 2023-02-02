@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
     height: 100vh;
-    background-image: url(Images/Background_Official.png);
+    background-image: url(Images/Opening_Door.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -15,6 +14,7 @@ body{
 .topnav{
     background-color: rgb(51, 51, 51);
     overflow: hidden;
+    width: 100%;
 
 }
 .topnav a {
@@ -49,45 +49,37 @@ body{
     width: fit-content;
   }
 
-/*Position and size of the logo*/
-.logo {
-    position: relative;
-    left: 150px;
-    top: 395px;
-    background-position: 100%;
-}
-
 .profile_picture_Natascha {
     border-radius: 50%;
     position: relative;
-    left: 1050px;
-    bottom: 200px;
+    left: 150px;
+    top: 104px;
 }
 
 .profile_picture_Mathias {
     border-radius: 50%;
     position: relative;
-    left: 1050px;
-    bottom: 150px;
+    left: 1450px;
+    bottom: 75px;
 }
 
-.Contact_header {
-    color: white;
+.About_header {
+    color: rgb(21, 116, 168);
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
-    text-shadow: 0 0 2px, cyan;
     font-weight: 300;
     text-align:center;
     margin-top: 0px;
     position: relative;
-    bottom: 700px;
-    left: 580px;
+    top: -320px;
+    left: 115px;
 }
 
-h3 {
+
+h3{
     color: white;
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: normal;
     text-align:left;
 
@@ -95,14 +87,18 @@ h3 {
 
 .Contact_information_Natascha {
     margin-top: 10px;
-    position: relative;
-    bottom: 690px;
-    left: 1250px;
+    position: absolute;
+    top: 400px;
+    left: 110px;
 }
 
 .Contact_information_Mathias {
     margin-top: 10px;
-    position: relative;
-    bottom: 350px;
-    left: 1250px;
+    position: absolute;
+    top: 400px;
+    right: 110px;
+}
+
+p a {
+    width: min-content;
 }

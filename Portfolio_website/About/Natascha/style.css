@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(Images/Background_Official.png);
+    background-image:url(/About/Natascha/Images/Background-image.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -49,60 +49,69 @@ body{
     width: fit-content;
   }
 
-/*Position and size of the logo*/
-.logo {
-    position: relative;
-    left: 150px;
-    top: 395px;
-    background-position: 100%;
-}
-
 .profile_picture_Natascha {
-    border-radius: 50%;
     position: relative;
-    left: 1050px;
-    bottom: 200px;
+    left: 900px;
+    top: 200px;
 }
 
-.profile_picture_Mathias {
-    border-radius: 50%;
-    position: relative;
-    left: 1050px;
-    bottom: 150px;
+.universe {
+    position: absolute;
+    left: 1300px;
+    top: 150px;
 }
 
-.Contact_header {
-    color: white;
+.earth {
+    position: absolute;
+    left: 800px;
+    bottom: 100px;
+}
+
+.About_header {
+    color: rgb(21, 116, 168);
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
-    text-shadow: 0 0 2px, cyan;
     font-weight: 300;
     text-align:center;
     margin-top: 0px;
     position: relative;
-    bottom: 700px;
-    left: 580px;
+    top: -320px;
+    left: 115px;
 }
 
-h3 {
+.About_Natascha_Header {
     color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-weight: normal;
-    text-align:left;
-
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.About_Natascha {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+.About_Me {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
 }
 
 .Contact_information_Natascha {
     margin-top: 10px;
     position: relative;
-    bottom: 690px;
-    left: 1250px;
+    bottom: 200px;
+    left: 110px;
 }
 
 .Contact_information_Mathias {
     margin-top: 10px;
     position: relative;
-    bottom: 350px;
-    left: 1250px;
+    bottom: 155px;
+    left: 1420px;
 }

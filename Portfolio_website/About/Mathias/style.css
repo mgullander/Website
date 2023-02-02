@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(Images/Background_Official.png);
+    background-image: url(Images/Background_livingroom.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -49,60 +49,59 @@ body{
     width: fit-content;
   }
 
-/*Position and size of the logo*/
-.logo {
-    position: relative;
-    left: 150px;
-    top: 395px;
-    background-position: 100%;
-}
-
-.profile_picture_Natascha {
-    border-radius: 50%;
-    position: relative;
-    left: 1050px;
-    bottom: 200px;
-}
-
 .profile_picture_Mathias {
-    border-radius: 50%;
-    position: relative;
-    left: 1050px;
-    bottom: 150px;
+    position: absolute;
+    left: 1450px;
+    bottom: 75px;
 }
 
-.Contact_header {
-    color: white;
+.About_header {
+    color: rgb(21, 116, 168);
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
-    text-shadow: 0 0 2px, cyan;
     font-weight: 300;
     text-align:center;
     margin-top: 0px;
     position: relative;
-    bottom: 700px;
-    left: 580px;
+    top: -320px;
+    left: 115px;
 }
 
-h3 {
+
+h3{
     color: white;
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: normal;
     text-align:left;
 
 }
-
-.Contact_information_Natascha {
-    margin-top: 10px;
-    position: relative;
-    bottom: 690px;
-    left: 1250px;
+.About_Natascha_Header {
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+.About_Natascha {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 750px;
+    top: 350px;
+}
+.About_Me {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 750px;
+    top: 250px;
 }
 
 .Contact_information_Mathias {
     margin-top: 10px;
-    position: relative;
-    bottom: 350px;
-    left: 1250px;
+    position: absolute;
+    bottom: 145px;
+    left: 1420px;
 }
